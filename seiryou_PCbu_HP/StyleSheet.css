@@ -1,20 +1,13 @@
 @chraset "utf-8";
-body{
-    margin: auto;
-}
-h1{
-    margin: auto;
-}
 .nav{position: fixed;
   top: 0;
   left: 0;
-  height: 50px;
-  background-color: cyan;
+  height: 70px;
+  background-color: white;
   width: 100%;
   border-style: none;
-  padding: inherit;
 }
 .main{
-    padding-top: 30px;
+    padding-top: 70px;
     border-style: none;
 }
