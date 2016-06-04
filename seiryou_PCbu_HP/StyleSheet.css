@@ -1,4 +1,7 @@
-@charset "utf-8";
+﻿@charset "utf-8";
+h1{
+  margin:auto;
+}
 .nav{
   position: fixed;
   top: 0;
@@ -9,6 +12,10 @@
   border-style: none;
 }
 .main{
-    padding-top: 70px;
+    padding-top: 40px;
     border-style: none;
+}
+td{
+    vertical-align :top;
+    line-height:50px;
 }
