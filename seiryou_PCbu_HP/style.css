@@ -1,0 +1,37 @@
+@charset "utf-8";
+h1 {
+    margin: auto;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    border-style: none;
+}
+
+.main {
+    padding-top: 40px;
+    border-style: none;
+}
+
+td {
+    vertical-align: top;
+    line-height: 50px;
+    font-size: 36px;
+}
+
+.button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+.button .yahoo:hover {
+    background-color: #ff0033;
+}
