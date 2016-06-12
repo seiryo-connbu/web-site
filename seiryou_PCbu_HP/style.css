@@ -32,6 +32,14 @@ td {
     border: 1px solid #ccc;
     text-decoration: none;
 }
-.button .yahoo:hover {
-    background-color: #ff0033;
+.culomn *{
+    width: 50%;
+    float: left;
+}
+.culomn{
+    width:100%;
+    display: inline-block;
+}
+#acount{
+    width: 50%;
 }
