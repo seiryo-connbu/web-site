@@ -2,20 +2,23 @@
 h1 {
     margin: auto;
 }
-
-.nav {
+.hedder{
+    
     position: fixed;
     top: 0;
     left: 0;
-    height: 70px;
     background-color: white;
     width: 100%;
     border-style: none;
+    z-index: 5;
 }
 
 .main {
     padding-top: 40px;
     border-style: none;
+}
+.content{
+    z-index: 1;
 }
 
 td {
