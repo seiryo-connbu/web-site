@@ -38,8 +38,21 @@ td {
 }
 .culomn{
     width:100%;
-    display: inline-block;
+    clear: both;
 }
-#acount{
+#account{
     width: 50%;
+    float: left;
+}
+#account img{
+    width: 100px;
+    height: 100px;
+}
+#account a{
+    font-size: 20px;
+}
+#timeLine{
+    float: left;
+    width: 50%;
+    height: 500px
 }
