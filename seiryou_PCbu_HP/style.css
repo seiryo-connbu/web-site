@@ -55,3 +55,6 @@ td {
 #timeLine{
     
 }
+nav li{
+    display: inline;
+}
