@@ -1,4 +1,11 @@
 @charset "utf-8";
+.accountTable img{
+    width: 100px;
+    height: 100px;
+}
+.accountTable a{
+    font-size: 20px;
+}
 h1 {
     margin: auto;
 }
@@ -35,7 +42,7 @@ td {
     border: 1px solid #ccc;
     text-decoration: none;
 }
-.culomn *{
+.culomn>*{
     width: 50%;
     float: left;
 }
@@ -44,18 +51,7 @@ td {
     clear: both;
 }
 #account{
-    width: 50%;
-    float: left;
-}
-#account img{
-    width: 100px;
-    height: 100px;
-}
-#account a{
-    font-size: 20px;
 }
 #timeLine{
-    float: left;
-    width: 50%;
-    height: 500px
+    
 }
